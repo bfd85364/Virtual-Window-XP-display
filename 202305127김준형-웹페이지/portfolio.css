@@ -1,0 +1,75 @@
+body {
+  display: flex-wrap;
+  flex-direction:column;
+  align-items: center;
+  background-color: #2D5FD4;
+}
+
+.taskbar{
+	  height:5px;
+	  position: bottom;
+	  font-size:10px;
+}
+
+.workingContainer {
+  display: flex;
+  width:100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem 2rem;
+  background-image:url("https://ia800209.us.archive.org/17/items/windows-xp-1551719014755/WindowsXP_1551719014755.jpg");
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+
+.buttonSpace {
+  padding: 20px;
+  flex-direction:column;
+  background-position: center;
+  align-items: center;
+  border: 4px;
+  width: 100%;
+  min-height: 300px;
+  height: 600px;
+}
+
+.workingSpace {
+  flex-direction:low;
+  background-repeat:no-repeat;
+  padding: 20px;
+  min-height: 100px;
+  white-space: pre-wrap;
+}
+
+
+.workingText {
+  font-family: 'Courier New', monospace;
+  font-size: 30px;
+}
+
+.btn {
+  background:transparent;
+  border:none;  
+  outline:none;
+  display:center;
+  cursor:pointer;
+  padding: 10px;
+  font-size: 15px;
+  flex-direction: center;
+  font-family: white, 'Tahoma', sans-serif;
+  color:white;
+}
+
+.btn:hover {
+color:blue;
+padding:15px
+}
+
+.pageTitle{
+  width: 100%;
+  text-align: center;
+  text-color:white;
+  font-weight:bold;
+  font-size:300%;
+}
