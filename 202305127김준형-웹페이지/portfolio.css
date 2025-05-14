@@ -61,6 +61,19 @@ body {
   color:white;
 }
 
+.start_btn {
+  background:transparent;
+  border:none;  
+  outline:none;
+  display:left;
+  cursor:pointer;
+  padding: 10px;
+  font-size: 15px;
+  flex-direction: left;
+  font-family: white, 'Tahoma', sans-serif;
+  color:white;
+}
+
 .btn:hover {
 color:blue;
 padding:15px
